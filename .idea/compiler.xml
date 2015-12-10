@@ -24,9 +24,17 @@
         <processorPath useClasspath="true" />
         <module name="Diningphilosophers" />
       </profile>
+      <profile default="false" name="Annotation profile for DiningPhilosophers" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="DiningPhilosophers" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Diningphilosophers" target="1.7" />
+      <module name="DiningPhilosophers" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
