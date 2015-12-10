@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ecc503a-9957-4ddd-b92b-bebf607cc576" name="Default" comment="Jar file created, final commit.">
+    <list default="true" id="6ecc503a-9957-4ddd-b92b-bebf607cc576" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DiningPhilosophers/Logger.class" afterPath="$PROJECT_DIR$/target/classes/DiningPhilosophers/Logger.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DiningPhilosophers/Philosopher$STATE.class" afterPath="$PROJECT_DIR$/target/classes/DiningPhilosophers/Philosopher$STATE.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DiningPhilosophers/Philosopher.class" afterPath="$PROJECT_DIR$/target/classes/DiningPhilosophers/Philosopher.class" />
@@ -9,10 +9,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DiningPhilosophers/SimulationStarter$2.class" afterPath="$PROJECT_DIR$/target/classes/DiningPhilosophers/SimulationStarter$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DiningPhilosophers/SimulationStarter.class" afterPath="$PROJECT_DIR$/target/classes/DiningPhilosophers/SimulationStarter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DiningPhilosophers/main.class" afterPath="$PROJECT_DIR$/target/classes/DiningPhilosophers/main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DiningPhilosophers.iml" afterPath="$PROJECT_DIR$/DiningPhilosophers.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log.txt" afterPath="$PROJECT_DIR$/log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DiningPhilosophers.iws" />
@@ -62,7 +58,7 @@
       <file leaf-file-name="Philosopher.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosophers/Philosopher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47768596">
+            <state vertical-scroll-proportion="0.47847682">
               <caret line="98" column="99" selection-start-line="98" selection-start-column="99" selection-end-line="98" selection-end-column="99" />
               <folding />
             </state>
@@ -585,12 +581,19 @@
       <created>1449734822118</created>
       <option name="number" value="Default" />
       <updated>1449734822118</updated>
-      <workItem from="1449750469665" duration="5480000" />
+      <workItem from="1449750469665" duration="5508000" />
     </task>
+    <task id="LOCAL-00001" summary="Jar file created, report included. Final report for deadline #1">
+      <created>1449756404067</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1449756404067</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5480000" />
+    <option name="totallyTimeSpent" value="5508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -604,7 +607,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31027028" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31027028" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -624,6 +627,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Jar file created, report included. Final report for deadline #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jar file created, report included. Final report for deadline #1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -734,7 +741,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DiningPhilosophers/Philosopher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47768596">
+        <state vertical-scroll-proportion="0.47847682">
           <caret line="98" column="99" selection-start-line="98" selection-start-column="99" selection-end-line="98" selection-end-column="99" />
           <folding />
         </state>
