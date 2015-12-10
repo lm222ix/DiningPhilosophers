@@ -1,0 +1,118 @@
+
+- - - - Simulation started on 2015-12-09 16:05:36.002 - - - -
+5:41 - Philosopher #0 is thinking
+5:41 - Philosopher #4 is thinking
+5:41 - Philosopher #3 is thinking
+5:41 - Philosopher #2 is thinking
+5:41 - Philosopher #1 is thinking
+5:41 - Philosopher #1 is hungry.
+5:41 - Philosopher #1 picked up left ChopStick #1
+5:41 - Philosopher #1 picked up right ChopStick #2
+5:41 - Philosopher #1 is eating
+5:42 - Philosopher #4 is hungry.
+5:42 - Philosopher #4 picked up left ChopStick #4
+5:42 - Philosopher #4 picked up right ChopStick #0
+5:42 - Philosopher #4 is eating
+5:44 - Philosopher #2 is hungry.
+5:47 - Philosopher #1 put down rightChopStick #2
+5:47 - Philosopher #1 put down leftChopStick #1
+5:47 - Philosopher #1 is thinking
+5:47 - Philosopher #2 picked up left ChopStick #2
+5:47 - Philosopher #2 picked up right ChopStick #3
+5:47 - Philosopher #2 is eating
+5:48 - Philosopher #2 put down rightChopStick #3
+5:48 - Philosopher #2 put down leftChopStick #2
+5:48 - Philosopher #2 is thinking
+5:48 - Philosopher #1 is hungry.
+5:48 - Philosopher #1 picked up left ChopStick #1
+5:48 - Philosopher #1 picked up right ChopStick #2
+5:48 - Philosopher #1 is eating
+5:49 - Philosopher #2 is hungry.
+5:50 - Philosopher #0 is hungry.
+5:50 - Philosopher #4 put down rightChopStick #0
+5:50 - Philosopher #4 put down leftChopStick #4
+5:50 - Philosopher #4 is thinking
+5:50 - Philosopher #0 picked up left ChopStick #0
+5:50 - Philosopher #3 is hungry.
+5:50 - Philosopher #3 picked up left ChopStick #3
+5:50 - Philosopher #3 picked up right ChopStick #4
+5:50 - Philosopher #3 is eating
+5:50 - Philosopher #3 put down rightChopStick #4
+5:50 - Philosopher #3 put down leftChopStick #3
+5:50 - Philosopher #3 is thinking
+5:52 - Philosopher #0 put down leftChopStick #0
+5:52 - Philosopher #0 picked up left ChopStick #0
+5:52 - Philosopher #1 put down rightChopStick #2
+5:52 - Philosopher #1 put down leftChopStick #1
+5:52 - Philosopher #1 is thinking
+5:52 - Philosopher #2 picked up left ChopStick #2
+5:52 - Philosopher #2 picked up right ChopStick #3
+5:52 - Philosopher #0 picked up right ChopStick #1
+5:52 - Philosopher #0 is eating
+5:52 - Philosopher #2 is eating
+5:52 - Philosopher #4 is hungry.
+5:52 - Philosopher #4 picked up left ChopStick #4
+5:54 - Philosopher #0 put down rightChopStick #1
+5:54 - Philosopher #0 put down leftChopStick #0
+5:54 - Philosopher #4 picked up right ChopStick #0
+5:54 - Philosopher #4 is eating
+5:54 - Philosopher #0 is thinking
+5:55 - Philosopher #3 is hungry.
+5:56 - Philosopher #4 put down rightChopStick #0
+5:56 - Philosopher #4 put down leftChopStick #4
+5:56 - Philosopher #4 is thinking
+5:56 - Philosopher #4 is hungry.
+5:56 - Philosopher #4 picked up left ChopStick #4
+5:56 - Philosopher #4 picked up right ChopStick #0
+5:56 - Philosopher #4 is eating
+6:0 - Philosopher #2 put down rightChopStick #3
+6:0 - Philosopher #2 put down leftChopStick #2
+6:0 - Philosopher #2 is thinking
+6:0 - Philosopher #3 picked up left ChopStick #3
+6:0 - Philosopher #4 put down rightChopStick #0
+6:0 - Philosopher #4 put down leftChopStick #4
+6:0 - Philosopher #3 picked up right ChopStick #4
+6:0 - Philosopher #3 is eating
+6:0 - Philosopher #4 is thinking
+6:0 - Philosopher #4 is hungry.
+6:1 - Philosopher #1 is hungry.
+6:1 - Philosopher #1 picked up left ChopStick #1
+6:1 - Philosopher #1 picked up right ChopStick #2
+6:1 - Philosopher #1 is eating
+6:2 - Philosopher #0 is hungry.
+6:2 - Philosopher #0 picked up left ChopStick #0
+6:4 - Philosopher #0 put down leftChopStick #0
+6:4 - Philosopher #0 picked up left ChopStick #0
+6:6 - Philosopher #0 put down leftChopStick #0
+6:6 - Philosopher #0 picked up left ChopStick #0
+6:7 - Philosopher #3 put down rightChopStick #4
+6:7 - Philosopher #3 put down leftChopStick #3
+6:7 - Philosopher #3 is thinking
+6:7 - Philosopher #4 picked up left ChopStick #4
+6:8 - Philosopher #0 put down leftChopStick #0
+6:8 - Philosopher #4 picked up right ChopStick #0
+6:8 - Philosopher #4 is eating
+6:9 - Shutting down..
+6:9 - Philosopher #2 is hungry.
+6:9 - Philosopher #1 put down rightChopStick #2
+6:9 - Philosopher #1 put down leftChopStick #1
+6:9 - Philosopher #4 put down rightChopStick #0
+6:9 - Philosopher #4 put down leftChopStick #4
+6:9 - Philosopher #0 picked up left ChopStick #0
+6:9 - Philosopher #0 put down leftChopStick #0
+6:15 - Philosopher #3 is hungry.
+6:15 - Philosopher #0 thought 2 times, on average tought for 8550 ms
+6:15 - Philosopher #0 ate 1 times, on average ate for 2100 ms
+6:15 - Philosopher #0 was hungry 1 times, on average hungry for 2109 ms
+6:15 - Philosopher #1 thought 3 times, on average tought for 3500 ms
+6:15 - Philosopher #1 ate 3 times, on average ate for 5900 ms
+6:15 - Philosopher #1 was hungry 3 times, on average hungry for 1 ms
+6:15 - Philosopher #2 thought 3 times, on average tought for 4500 ms
+6:15 - Philosopher #2 ate 2 times, on average ate for 4350 ms
+6:15 - Philosopher #2 was hungry 2 times, on average hungry for 2851 ms
+6:15 - Philosopher #3 thought 3 times, on average tought for 7200 ms
+6:15 - Philosopher #3 ate 2 times, on average ate for 3450 ms
+6:15 - Philosopher #3 was hungry 2 times, on average hungry for 2555 ms
+6:15 - Philosopher #4 thought 4 times, on average tought for 900 ms
+6:15 - Philosopher #4 ate 4 times, on average ate for 3825 ms
+6:15 - Philosopher #4 was hungry 4 times, on average hungry for 2402 ms

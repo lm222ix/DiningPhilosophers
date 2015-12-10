@@ -1,0 +1,18 @@
+
+- - - - Simulation started on 2015-12-09 16:46:41.737 - - - -
+47:49 - Shutting down..
+47:49 - Philosopher #0 tought 0 times.
+47:49 - Philosopher #0 ate 0 times.
+47:49 - Philosopher #0 was hungry  0 times.
+47:49 - Philosopher #1 tought 0 times.
+47:49 - Philosopher #1 ate 0 times.
+47:49 - Philosopher #1 was hungry  0 times.
+47:49 - Philosopher #2 tought 0 times.
+47:49 - Philosopher #2 ate 0 times.
+47:49 - Philosopher #2 was hungry  0 times.
+47:49 - Philosopher #3 tought 0 times.
+47:49 - Philosopher #3 ate 0 times.
+47:49 - Philosopher #3 was hungry  0 times.
+47:49 - Philosopher #4 tought 0 times.
+47:49 - Philosopher #4 ate 0 times.
+47:49 - Philosopher #4 was hungry  0 times.
