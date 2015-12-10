@@ -1,6 +1,5 @@
 package DiningPhilosophers;
 
-import javafx.scene.image.ImageView;
 import javafx.scene.paint.Paint;
 import javafx.scene.shape.Rectangle;
 
@@ -8,24 +7,25 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-/**
- * Created by Ludde on 2015-11-27.
- */
 public class ChopStick extends Rectangle {
 
-    public Lock lock;
+    public Lock lock;       //Chopstick holds a lock field
     private final int id;
     private Logger logger;
 
     public ChopStick(int id, Logger logger) {
         this.id = id;
-        lock = new ReentrantLock();
+        lock = new ReentrantLock();             //Instansiate lock as reentrantLock
         this.logger = logger;
         this.setWidth(8);
         this.setHeight(60);
         this.setFill(Paint.valueOf("BLACK"));
     }
 
+    /*
+    Method to pick up a chopstick. Parameters are a philosopher who picked up and if its his left or right one.
+    This method will try to pick up the chopstick(or "lock" it).
+     */
     public boolean pickUpChopStick(Philosopher whoPickedUp, String leftOrRight) {
         if(!whoPickedUp.getState().equals(Philosopher.STATE.ShuttingDown)) {
             try {
@@ -41,6 +41,7 @@ public class ChopStick extends Rectangle {
 
     }
 
+    //Unlocks the chopstick/lock.
     public void putDownChopStick(Philosopher whoPutDown, String leftOrRight) {
         lock.unlock();
         logger.log(whoPutDown + " put down " + leftOrRight + this);

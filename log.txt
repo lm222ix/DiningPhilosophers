@@ -1,18 +1,61 @@
 
-- - - - Simulation started on 2015-12-09 16:46:41.737 - - - -
-47:49 - Shutting down..
-47:49 - Philosopher #0 tought 0 times.
-47:49 - Philosopher #0 ate 0 times.
-47:49 - Philosopher #0 was hungry  0 times.
-47:49 - Philosopher #1 tought 0 times.
-47:49 - Philosopher #1 ate 0 times.
-47:49 - Philosopher #1 was hungry  0 times.
-47:49 - Philosopher #2 tought 0 times.
-47:49 - Philosopher #2 ate 0 times.
-47:49 - Philosopher #2 was hungry  0 times.
-47:49 - Philosopher #3 tought 0 times.
-47:49 - Philosopher #3 ate 0 times.
-47:49 - Philosopher #3 was hungry  0 times.
-47:49 - Philosopher #4 tought 0 times.
-47:49 - Philosopher #4 ate 0 times.
-47:49 - Philosopher #4 was hungry  0 times.
+- - - - Simulation started - - - -
+12:1:15 - Philosopher #0 is thinking
+12:1:15 - Philosopher #4 is thinking
+12:1:15 - Philosopher #3 is thinking
+12:1:15 - Philosopher #2 is thinking
+12:1:15 - Philosopher #1 is thinking
+12:1:17 - Philosopher #2 is hungry.
+12:1:17 - Philosopher #2 picked up left ChopStick #2
+12:1:17 - Philosopher #2 picked up right ChopStick #3
+12:1:17 - Philosopher #2 is eating
+12:1:17 - Philosopher #4 is hungry.
+12:1:17 - Philosopher #4 picked up left ChopStick #4
+12:1:17 - Philosopher #4 picked up right ChopStick #0
+12:1:17 - Philosopher #4 is eating
+12:1:18 - Philosopher #0 is hungry.
+12:1:20 - Philosopher #4 put down rightChopStick #0
+12:1:20 - Philosopher #0 picked up left ChopStick #0
+12:1:20 - Philosopher #0 picked up right ChopStick #1
+12:1:20 - Philosopher #0 is eating
+12:1:20 - Philosopher #4 put down leftChopStick #4
+12:1:20 - Philosopher #4 is thinking
+12:1:21 - Philosopher #2 put down rightChopStick #3
+12:1:21 - Philosopher #2 put down leftChopStick #2
+12:1:21 - Philosopher #2 is thinking
+12:1:22 - Philosopher #0 put down rightChopStick #1
+12:1:22 - Philosopher #0 put down leftChopStick #0
+12:1:22 - Philosopher #0 is thinking
+12:1:23 - Philosopher #1 is hungry.
+12:1:23 - Philosopher #1 picked up left ChopStick #1
+12:1:23 - Philosopher #1 picked up right ChopStick #2
+12:1:23 - Philosopher #1 is eating
+12:1:23 - Philosopher #2 is hungry.
+12:1:24 - Philosopher #3 is hungry.
+12:1:24 - Philosopher #3 picked up left ChopStick #3
+12:1:24 - Philosopher #3 picked up right ChopStick #4
+12:1:24 - Philosopher #3 is eating
+12:1:25 - Philosopher #4 is hungry.
+12:1:26 - Philosopher #0 is hungry.
+12:1:26 - Philosopher #0 picked up left ChopStick #0
+12:1:27 - Shutting down..
+12:1:27 - Philosopher #3 put down rightChopStick #4
+12:1:27 - Philosopher #3 put down leftChopStick #3
+12:1:28 - Philosopher #0 put down leftChopStick #0
+12:1:29 - Philosopher #1 put down rightChopStick #2
+12:1:29 - Philosopher #1 put down leftChopStick #1
+12:1:30 - Philosopher #0 thought 2 times, on average tought for 3150 ms
+12:1:30 - Philosopher #0 ate 1 times, on average ate for 1800 ms
+12:1:30 - Philosopher #0 was hungry 1 times, on average hungry for 2400 ms
+12:1:30 - Philosopher #1 thought 1 times, on average tought for 7200 ms
+12:1:30 - Philosopher #1 ate 1 times, on average ate for 6900 ms
+12:1:30 - Philosopher #1 was hungry 1 times, on average hungry for 0 ms
+12:1:30 - Philosopher #2 thought 2 times, on average tought for 1650 ms
+12:1:30 - Philosopher #2 ate 1 times, on average ate for 4200 ms
+12:1:30 - Philosopher #2 was hungry 1 times, on average hungry for 0 ms
+12:1:30 - Philosopher #3 thought 1 times, on average tought for 8700 ms
+12:1:30 - Philosopher #3 ate 1 times, on average ate for 3300 ms
+12:1:30 - Philosopher #3 was hungry 1 times, on average hungry for 0 ms
+12:1:30 - Philosopher #4 thought 2 times, on average tought for 3150 ms
+12:1:30 - Philosopher #4 ate 1 times, on average ate for 3000 ms
+12:1:30 - Philosopher #4 was hungry 1 times, on average hungry for 0 ms

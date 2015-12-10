@@ -1,22 +1,14 @@
 package DiningPhilosophers;
 
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringProperty;
-import javafx.beans.value.ObservableValue;
 import javafx.scene.paint.Paint;
 import javafx.scene.shape.Circle;
-
-import java.io.IOException;
-import java.io.StringReader;
 import java.util.ArrayList;
-import java.util.Properties;
 import java.util.Random;
 
-/**
- * Created by Ludde on 2015-11-27.
- */
 public class Philosopher extends Circle implements Runnable {
 
+
+    //Possible states of a philosopher
     public enum STATE {
         Hungry,
         Eating,
@@ -25,30 +17,33 @@ public class Philosopher extends Circle implements Runnable {
         ShuttingDown
     }
 
+    //State starts of as initial.
     private STATE currentState = STATE.Initial;
 
     private final int id;
     public ChopStick left;
     public ChopStick right;
-    private final int sleepTimeBound = 300;
+    private final int sleepTimeBound = 300;     //This sets the length of wich the Philosopher will think/eat. 1-30 will be randomed and multiplied with this number. Example set to 300 for 300ms - 9000ms range.
     private Random random = new Random();
 
     private boolean stopPhilosopher = false;
-    public void setStopPhilosopher(boolean t) {this.stopPhilosopher = t;}
     private Logger logger;
-    private SimulationStarter.philosopherContainer pc;
 
-    //For measure avg time spent doing
+    //For measure avg time spent doing stuff
     public ArrayList<Integer> eatRecords;
     public ArrayList<Integer> thinkRecords;
     public ArrayList<Integer> hungryRecords;
 
+
+    //set & gets
     public int getID() {
         return this.id;
     }
 
+
     public STATE getState() {return this.currentState;}
-    public synchronized void setState(STATE state) {
+    //using setState for some functionality. Colors chopsticks/philosophers on state change.
+    public void setState(STATE state) {
         STATE previousState = this.currentState;
         if(previousState.equals(STATE.Eating)) {    //If previous state was eating the forks should now be black or "free"
             left.setFill(Paint.valueOf("BLACK"));
@@ -70,6 +65,11 @@ public class Philosopher extends Circle implements Runnable {
         }
         this.currentState = state;}
 
+    public void setStopPhilosopher(boolean stopPhilosopher) {
+        this.stopPhilosopher = stopPhilosopher;
+    }
+
+    //Doesnt move anything yet but colors Taken/Locked chopsticks red.
     public void moveChopsticks() {      //Red chopsticks are "Taken"
        left.setFill(Paint.valueOf("RED"));
        right.setFill(Paint.valueOf("RED"));
@@ -81,33 +81,28 @@ public class Philosopher extends Circle implements Runnable {
         this.right = right;
         this.logger = log;
 
-        eatRecords = new ArrayList<Integer>();
-        thinkRecords = new ArrayList<Integer>();
-        hungryRecords = new ArrayList<Integer>();
+        eatRecords = new ArrayList<>();
+        thinkRecords = new ArrayList<>();
+        hungryRecords = new ArrayList<>();
     }
 
-    public void setPc(SimulationStarter.philosopherContainer pc) {
-        this.pc = pc;
-    }
 
     public void run() {
         try {
             while(!stopPhilosopher) {
                 think();        //Think for a random amount of time, when the thinking is done i assume the philisopher gets hungry and tries to pick up chopsticks.
-                long startMeasureTime = System.currentTimeMillis();
+                long startMeasureTime = System.currentTimeMillis();     //Start measure time for hungry timing.
                 while(currentState.equals(STATE.Hungry)) {
                     if(left.pickUpChopStick(this, "left")) {        //pick up left first
                         if(right.pickUpChopStick(this, "right")) {       //Then tries to pick up right.
-                            long endMeasureTime = System.currentTimeMillis();
-                            int res = ((int) (endMeasureTime - startMeasureTime));
-                            hungryRecords.add(res);
-                            eat();
+                            long endMeasureTime = System.currentTimeMillis();   //Stop measure time for hungry timing.
+                            int res = ((int) (endMeasureTime - startMeasureTime)); //Calc diffrence
+                            hungryRecords.add(res);     //add time hungry to list.
+                            eat();      //Eat when chopsticks aquired.
                             right.putDownChopStick(this, "right");
                         }
                         left.putDownChopStick(this, "left");        //Puts down left chopstick either after eating or if right was not avalible.
                     }
-                    //Wait and try again soon
-                    //Thread.sleep(2000);
                 }
             }
         } catch(InterruptedException e) {
@@ -123,9 +118,10 @@ public class Philosopher extends Circle implements Runnable {
         thinkRecords.add(sleeptime);
         Thread.sleep(sleeptime);
 
-        if(!currentState.equals(STATE.ShuttingDown))
-        setState(STATE.Hungry);
-        logger.log(this + " is hungry.");
+        if(!currentState.equals(STATE.ShuttingDown)) {
+            setState(STATE.Hungry);
+            logger.log(this + " is hungry.");
+        }
     }
 
     private void eat() throws InterruptedException {
@@ -146,6 +142,8 @@ public class Philosopher extends Circle implements Runnable {
         return "Philosopher #" + this.id;
     }
 
+
+    //Prints out a summary of how many times and for how long on average a philosopher tought/was hungry/ate
     public void printStatistics() {
         int avgtime = 0;
         for(Integer i : thinkRecords) {
